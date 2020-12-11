@@ -1,50 +1,46 @@
-body,
-html {
-    width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    background: url(BorderCollie.jfif) no-repeat center center fixed;
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
-    background-size: cover;
+﻿body {
+    background-color: floralwhite;
+    margin: 0px;
 }
 
 
 
-
-h1 {
-    font-size: 3rem;
-    color: orange;
-}
-
-hr {
-    border-color: orange;
-    border-width: 33px;
-    max-width: 65px;
-}
-
-.buffer {
-
-height:35rem;
-
-}
-
-.btn {
-    font-weight: 700;
-    border-radius: 300px;
-    text-transform: capitalize;
-}
-
-.btn-primary {
-    background-color: orangered;
-    border-color: orangered;
-}
-
-    .btn-primary:hover {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     }
 
 
-.btn-xl {
-    padding: 1rem 2rem;
+.MenuColor {
+    background-color: floralwhite;
 }
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    border-left: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #ff6a00;
+    margin-top: 10px;
+
+    
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin:10px;
+    transition: all 1s;
+        }
+    img:hover {
+    
+        transform:scale(1.2);
+      
+    
+    }
+
+
